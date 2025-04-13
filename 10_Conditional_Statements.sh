@@ -53,14 +53,41 @@ else
 	echo "No you cannot come"
 fi
 
-# less then <=
 
-read -p "Enter your marks: "marks
-if[ "marks" -le 100 ]
+# Using Elif
+
+read -p "Enter the marks: "marks
+
+if[ "$marks" -ge 20 ]
 then
-	echo "Yes you have to imporve"
+	echo "Yes you are Pass"
+elif [ "$marks" -ge 40 ]
+then
+	echo "You are at a good place"
 else
-	echo "Nyc Keep going"
+	echo "Please focus on yourself"
 fi
+
+# using && and || operations
+
+# method 1 using flage -a for and and -o for or
+
+if[ "$marks" -ge 20 -a "$marks" -le 40 ]
+then
+	echo "Nyxxxxxxxxxx"
+fi
+
+if[ "$marks" -ge 20 -o "$marks" -le 60 ]
+then 
+	echo "using or operator by flag"
+else
+	echo "you can do nothing altough using or operator."
+fi
+
+# method 2 using && and ||
+
+if [ age -ge 20 ] && [ age -le 20 ]
+then
+	echo "Yes you are in between the 20 and 30"
 
 
