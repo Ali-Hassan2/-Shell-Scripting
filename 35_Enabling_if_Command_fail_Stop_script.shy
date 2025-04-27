@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -e
+
+if [[ "$#" -eq 0 ]]
+then 
+	echo "Please pass atleast one argument"
+	exit 1
+fi
+
+echo "First argument is: $1"
+echo "Second argument is: $2"
+
+
+echo "All the arguments are: $@"
+echo "The number of arguments is: $#"
+
+

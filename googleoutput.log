@@ -1,0 +1,13 @@
+PING www.google.com(mct01s20-in-x04.1e100.net (2a00:1450:4018:806::2004)) 56 data bytes
+64 bytes from mct01s20-in-x04.1e100.net (2a00:1450:4018:806::2004): icmp_seq=1 ttl=55 time=52.5 ms
+
+--- www.google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 52.498/52.498/52.498/0.000 ms
+PING www.google.com(mct01s20-in-x04.1e100.net (2a00:1450:4018:806::2004)) 56 data bytes
+64 bytes from mct01s20-in-x04.1e100.net (2a00:1450:4018:806::2004): icmp_seq=1 ttl=55 time=57.1 ms
+
+--- www.google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 57.052/57.052/57.052/0.000 ms
+و 14:38:16 PKT ت 27 اپریل 2025
